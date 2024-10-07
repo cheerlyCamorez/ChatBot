@@ -4,7 +4,7 @@ include('func.php');
 
 include('database.php');
 
-$botToken = '6787626658:AAHOBKDxO8nOAYbjxVfZZGgMPYgsMGX6VKE'; 
+$botToken = '787626658:AAHOBKDxO8nOAYbjxVfZZGgMPYgsMGX6VKE'; 
 
 $update = file_get_contents('php://input'); 
 $update = json_decode($update, true);  
